@@ -1,0 +1,39 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+assignment.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Streamlit
+.streamlit/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+
+# Browser/Crawling artifacts (Playwright etc.)
+*dump.html
+*dump.json
+playwright-log.txt

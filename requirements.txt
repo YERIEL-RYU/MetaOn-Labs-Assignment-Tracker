@@ -1,0 +1,7 @@
+streamlit
+playwright
+beautifulsoup4
+apscheduler
+pandas
+python-dotenv
+requests
