@@ -18,6 +18,9 @@ st.set_page_config(
 
 # 세션 상태 초기화 (DB 및 스케줄러)
 if "initialized" not in st.session_state:
+    # Playwright 브라우저 설치 (클라우드 배포 환경 등에서 브라우저가 없는 경우 대비)
+    os.system("playwright install chromium")
+    
     init_db()
     start_scheduler()
     st.session_state.initialized = True
